@@ -1,1 +1,2 @@
-# Nest-Js-tutorial
+## Modules
+A module is a class annotated with a @Module() decorator. The @Module() decorator provides metadata that Nest makes use of to organize the application structure.
