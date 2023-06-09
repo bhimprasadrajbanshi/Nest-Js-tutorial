@@ -4,7 +4,7 @@ A module is a class annotated with a @Module() decorator. The @Module() decorato
 <img src="https://docs.nestjs.com/assets/Modules_1.png">
 
 - Root module
-```Nestjs
+```nests
  @Module({
   imports: [UsersModule,OrdersModule,ChatModule],
   controllers: [],
