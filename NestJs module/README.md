@@ -15,7 +15,7 @@ export class RootModule {
     console.log("Root Module");
   }
 ```
-- Sub module
+- ChatModule (Sub module)
 ```nestjs
  @Module({
     imports: [],
@@ -28,4 +28,32 @@ export class RootModule {
     }
     
   }
-  ```
+```
+- OrdersModule (Sub module)
+```nestjs
+@Module({
+    imports: [],
+    controllers: [],
+    providers: [],
+  })
+  export class OrdersModule {
+    constructor(){
+      console.log("OrdersModule");
+    }
+    
+  }
+```
+- UsersModule(Sub module)
+```nestjs
+   @Module({
+  imports: [],
+  controllers: [],
+  providers: [],
+})
+export class UsersModule {
+  constructor(){
+    console.log("UsersModule");
+  }
+  
+}
+```
