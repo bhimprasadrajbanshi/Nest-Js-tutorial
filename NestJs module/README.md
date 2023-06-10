@@ -3,7 +3,7 @@ A module is a class annotated with a @Module() decorator. The @Module() decorato
 
 <img src="https://docs.nestjs.com/assets/Modules_1.png">
 
-##### Here we can see the workflow of the module and its communication with the submodule
+##### Here we can see the workflow of the module and its communication with the submodule in Fig. Implementation with Code
 
 ### Code
 - Root module
