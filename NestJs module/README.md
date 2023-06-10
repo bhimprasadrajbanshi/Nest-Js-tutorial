@@ -15,3 +15,17 @@ export class RootModule {
     console.log("Root Module");
   }
 ```
+- Sub module
+```nestjs
+ @Module({
+    imports: [],
+    controllers: [],
+    providers: [],
+  })
+  export class ChatModule {
+    constructor(){
+      console.log("ChatModule");
+    }
+    
+  }
+  ```
