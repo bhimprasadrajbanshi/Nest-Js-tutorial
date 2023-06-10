@@ -17,7 +17,7 @@ export class RootModule {
   }
 ```
 - ChatModule (Sub module)
-```nestjs
+```js
  @Module({
     imports: [],
     controllers: [],
@@ -31,7 +31,7 @@ export class RootModule {
   }
 ```
 - OrdersModule (Sub module)
-```nestjs
+```js
 @Module({
     imports: [],
     controllers: [],
@@ -45,7 +45,7 @@ export class RootModule {
   }
 ```
 - UsersModule(Sub module)
-```nestjs
+```js
    @Module({
   imports: [],
   controllers: [],
