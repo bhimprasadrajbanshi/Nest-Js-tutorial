@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, Post } from '@nestjs/common';
+import { Body, Controller, Get, Param, ParseIntPipe, Post } from '@nestjs/common';
 
 @Controller('student')
 export class StudentController {
@@ -9,8 +9,8 @@ export class StudentController {
 
 
     @Get('/:id')
-    studentbyid(@Param('id') id:string){
-        console.log(id)
+    studentbyid(@Param('id',ParseIntPipe) id:number){
+        console.log(id ,typeof(id))
     }
 
     @Post('update')
