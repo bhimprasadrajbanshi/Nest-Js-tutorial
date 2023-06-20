@@ -9,7 +9,8 @@ export class StudentController {
 
 
     @Get('/:id')
-    studentbyid(@Param('id',ParseIntPipe) id:string){
+    studentbyid(@Param('id') id:number){
+        id = Number(id)
         console.log(id, typeof(id))
     }
 
