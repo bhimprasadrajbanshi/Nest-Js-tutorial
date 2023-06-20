@@ -9,7 +9,7 @@ export class StudentController {
 
 
     @Get('/:id')
-    studentbyid(@Param('id') id:string){
+    studentbyid(@Param('id',ParseIntPipe) id:string){
         console.log(id, typeof(id))
     }
 
