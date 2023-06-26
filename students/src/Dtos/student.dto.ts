@@ -4,8 +4,8 @@ export class CreateStudentDTO{
     @IsString()
     fullname: string
 
-    @IsString()
-    id:string
+    @IsInt()
+    id:number
 
     @IsString()
     address:string
