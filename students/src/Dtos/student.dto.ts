@@ -10,7 +10,7 @@ export class CreateStudentDTO{
     @IsString()
     address:string
 
-    @IsString()
-    contact:string
+    @IsInt()
+    contact:number
 
 }
